@@ -3,28 +3,69 @@
     <head>
         <title> Index</title>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        header{
+            background-color: black;
+            color: bisque;
+            text-align: right;
+            padding: 10px;
+
+        }
+       
+        
+        nav, .link{
+            background-color: rgba(102, 149, 149, 0.558);
+            color: rgb(247, 241, 246);
+            padding: 18px;
+            text-decoration: none;
+            font-weight: 900;
+        }
+           .link{
+
+           border-style: solid;
+            border-color: white;
+            padding: 12px;
+            border-radius: 12px;
+            margin-left: 6px;
+            background-color: rgba(41, 96, 78, 0.64);
+        }
+        footer{
+           text-align: left;
+           padding-left: 15px;
+        }
+       .prop{
+        padding-left: 10px;
+       }
+       .propy{
+        margin-left: 30px;
+       }
+      
+    </style>
     </head>
     <body>
         <header>
-            <i class="fa fa-user" aria-hidden="true"> Mohit Sharma</i>&nbsp;&nbsp;&nbsp;
-            <i class="fa fa-phone" aria-hidden="true"> 9579479666</i>&nbsp;&nbsp;&nbsp;
-            <i class="fa fa-envelope-o" aria-hidden="true"> abc@gmail.com</i>
-        </header><br>
+            <span class="propy"><i class="fa fa-user" aria-hidden="true"> Mohit Sharma</i></span>
+            <span class="propy"><i class="fa fa-phone" aria-hidden="true"> 9579479666</i></span>
+            <span class="propy"><i class="fa fa-envelope-o" aria-hidden="true"> abc@gmail.com</i></span>
+        </header>
         <nav>
-            <a href="home.html" target="myFrame">HOME</a>&nbsp;&nbsp;
-            <a href="techStack.html" target="myFrame">TECHSTACK</a>&nbsp;&nbsp;
-            <a href="eduction.html" target="myFrame"> EDUCATION </a> &nbsp;&nbsp;
-            <a href="personal.html" target="myFrame"> PERSONAL </a> &nbsp;&nbsp;
-            <a href="contactUs.html" target="myFrame"> CONTACT US</a>
+            
+            <a class="link" href="home.html" target="myFrame">HOME</a>
+            <a class="link" href="techStack.html" target="myFrame">TECHSTACK</a>
+            <a class="link" href="eduction.html" target="myFrame"> EDUCATION </a>
+            <a class="link" href="personal.html" target="myFrame"> PERSONAL </a> 
+            <a class="link" href="contactUs.html" target="myFrame"> CONTACT US</a>
+            <br>
+            
         </nav>        
         <hr>
         <br>
-        <iframe width="1050px" height="500px" name="myFrame"></iframe>
+        <iframe width="1450px" height="500px" name="myFrame" src="home.html"></iframe>
         <footer>
-            <strong>Follow Me: &nbsp;&nbsp;</strong>
-            <a href="https://www.instagram.com/" target="_blank"><i class="fa fa-instagram fa-2x" aria-hidden="true"></i></a>&nbsp;&nbsp;
-            <a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook-official fa-2x" aria-hidden="true"></i></a>&nbsp;&nbsp;
-            <a href="https://www.linked.com/" target="_blank"><i class="fa fa-linkedin fa-2x" aria-hidden="true"></i></a>
+            <strong>Follow Me: &nbsp;</strong>
+            <a class="prop" href="https://www.instagram.com/" target="_blank"><i class="fa fa-instagram fa-1.5x" aria-hidden="true"></i></a>
+            <a class="prop" href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook-official fa-1.5x" aria-hidden="true"></i></a>
+            <a class="prop" href="https://www.linked.com/" target="_blank"><i class="fa fa-linkedin fa-1.5x" aria-hidden="true"></i></a>
 
             
         </footer>
