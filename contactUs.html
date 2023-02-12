@@ -2,36 +2,39 @@
 <html>
   <head>
     <title>Contact Us Form</title>
+    <link rel="stylesheet" href="cont.css">
   </head>
   <body>
     <h2>Contact Us</h2>
-    <table>
-      <tr>
-        <td><label>Full Name:</label></td>
-        <td>
+      <form>    
+       <label>Full Name:</label>  <br>    
+
           <input
             type="text"
             placeholder="Max charactor length=25"
             autofocus
             maxlength="25">
-        </td>
-      </tr>
-      <tr>
-        <td><label>Mobile No:</label></td>
-        <td><input type="number" /></td>
-      </tr>
-      <tr>
-        <td><label>Email:</label></td>
-        <td><input type="email" placeholder="Ex abc@gmail.com" /></td>
-      </tr>
-      <tr>
-        <td><label>Enquiry:</label></td>
-        <td><textarea cols="40" rows="6"></textarea></td>
-      </tr>
-      <tr>
-        <td><input type="submit" /></td>
-        <td><input type="reset" /></td>
-      </tr>
-    </table>
+        
+      <br>
+      
+       <label>Mobile No:</label><br>
+       <input type="number" />
+      <br>
+            
+       <label>Email:</label><br>
+       <input type="email" placeholder="Ex abc@gmail.com" />
+      <br>
+      
+       <label>Enquiry:</label><br>
+       <textarea cols="40" rows="6"></textarea>
+      
+      
+      <div>
+        <input type="submit" />
+       <input type="reset" />
+      </div>
+       
+      
+      </form>
   </body>
 </html>

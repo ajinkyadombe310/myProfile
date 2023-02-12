@@ -4,22 +4,40 @@
         <title> Index</title>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <style>
+        body{
+            background-color: rgb(192, 214, 207);
+        }
         header{
             background-color: black;
             color: bisque;
-            text-align: right;
+            /* text-align: right; */
             padding: 10px;
-
+            border: 2px solid rgb(174, 126, 126);
+            border-radius: 10px;
+            text-align: right;
+            
+    
         }
        
-        
-        nav, .link{
+                nav, .link{
             background-color: rgba(121, 179, 186, 0.684);
             color: rgb(247, 241, 246);
             padding: 18px;
             text-decoration: none;
             font-weight: 900;
+            border-radius: 10px;
+            
+            
+
         }
+        nav a:hover{
+            color: rgb(59, 59, 141);
+            border-color: rgb(24, 58, 78);
+            background-color: rgb(195, 202, 192);
+            
+            
+        }
+        
            .link{
 
            border-style: solid;
@@ -29,10 +47,10 @@
             margin-left: 6px;
             background-color: rgba(187, 130, 146, 0.64);
         }
-        body{
-            background-image: url(pexels-photo-1037995.webp);
-            background-repeat: no-repeat;
-            background-size: cover;
+       
+            
+           
+         
         }
         footer{
            text-align: left;
@@ -45,6 +63,8 @@
         margin-left: 30px;
        }
        iframe{
+        width: 100%;
+        
         border: 0px;
         overflow: hidden;
        }
@@ -54,22 +74,23 @@
     <body>
         <header>
             <span class="propy"><i class="fa fa-user" aria-hidden="true"> Mohit Sharma</i></span>
-            <span class="propy"><i class="fa fa-phone" aria-hidden="true"> 9579479666</i></span>
+                        <span class="propy"><i class="fa fa-phone" aria-hidden="true"> 9579479666</i></span>
             <span class="propy"><i class="fa fa-envelope-o" aria-hidden="true"> abc@gmail.com</i></span>
         </header>
+       
         <nav>
             
-            <a class="link" href="home.html" target="myFrame">HOME</a>
-            <a class="link" href="techStack.html" target="myFrame">TECHSTACK</a>
-            <a class="link" href="eduction.html" target="myFrame"> EDUCATION </a>
-            <a class="link" href="personal.html" target="myFrame"> PERSONAL </a> 
-            <a class="link" href="contactUs.html" target="myFrame"> CONTACT US</a>
+            <a class="link" href="home.html" target="myFrame" title="home">HOME</a>
+            <a class="link" href="techStack.html" target="myFrame" title="techstack">TECHSTACK</a>
+            <a class="link" href="eduction.html" target="myFrame" title="eduction"> EDUCATION </a>
+            <a class="link" href="personal.html" target="myFrame" title="personal"> PERSONAL </a> 
+            <a class="link" href="contactUs.html" target="myFrame" title="contactus"> CONTACT US</a>
             <br>
             
         </nav>        
         <hr>
         <br>
-        <iframe width="1450px" height="500px"  name="myFrame" src="home.html"></iframe>
+        <iframe width="1450px" height="570px"  name="myFrame" src="home.html"></iframe>
         <footer>
             <strong>Follow Me: &nbsp;</strong>
             <a class="prop" href="https://www.instagram.com/" target="_blank"><i class="fa fa-instagram fa-1.5x" aria-hidden="true"></i></a>
